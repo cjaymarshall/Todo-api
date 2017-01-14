@@ -41,11 +41,6 @@ app.get('/todos/:id', function (req,res) {
 		res.status(404).send('404: Could not find ID');
 	}
 });
-
-
-
-
-
 	
 
 app.listen(PORT, function () {
